@@ -1,9 +1,9 @@
 # Сайт для продажи концертных билетов "Youtickets"
 ## Связь с разработчиками:
 
-* **aleksey-anisimov5568** Анисимов Алексей 
+* **aleksey-anisimov5568** Анисимов Алексей - leha.anisimov.2013@mail.ru
 * **NKst36** Кравцов Никита - kravtsovnikitast@mail.ru
-* Рагимов Рауф
+* Рагимов Рауф - rauf.ragimov14@gmail.com
 
 # Сервисы для работы
 
