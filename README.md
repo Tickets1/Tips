@@ -7,5 +7,8 @@
 
 # Сервисы для работы
 
-[Miro](https://miro.com/app/board/o9J_lLkesTc=/)
-[Trello](https://trello.com/b/RozRmUPK/tips)
+* [Miro](https://miro.com/app/board/o9J_lLkesTc=/)
+* [Trello](https://trello.com/b/RozRmUPK/tips)
+
+# Документация
+
