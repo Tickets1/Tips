@@ -9,17 +9,26 @@
     <?php require "navbar.php"?>
   </head>
   <body class="text-center">
-    <div align="center" class="mt-5">
-    <form class="form-signin" action="" method="post">
+    <div align="center"  class="mt-5">
+    <form class="form-signin" action="register.php" method="POST">
       <h1 class="h3 mb-3 font-weight-normal ">Зарегистрируйтесь</h1>
-      <input type="text" class="form-control mb-3" name="firstname" placeholder="Имя" required>
-      <input type="text" class="form-control mb-3" name="lastname" placeholder="Фамилия" required>
+      <input type="text" class="form-control mb-3" name="first_name" placeholder="Имя" required>
+      <input type="text" class="form-control mb-3" name="last_name" placeholder="Фамилия" required>
       <input type="email" class="form-control mb-3" name="email" placeholder="E-mail" required>
       <input type="text" class="form-control mb-3" name="login" placeholder="Логин" required>
       <input type="password" class="form-control mb-3" name="password" placeholder="Пароль" required>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Регистрация</button>
       <p class="mt-5 mb-3 text-muted">&copy; Tickets 2021</p>
+
     </form>
+    <script>
+    window.onload = function() {
+        history.replaceState("", "", "register.php");
+    }
+    </script>
+    <?php require "register_methods.php";
+     require "alerts.php";
+    ?>
     </div>
   </body>
 </html>
