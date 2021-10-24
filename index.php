@@ -10,9 +10,9 @@
   <body>
     <div class="container mt-5">
       <div class="mb-5">
-      <h3>Концерты</h3>
     </div>
     <?php require "blocks/glav.php"?>
+<?php require "blocks/feauter.php"?>
 <p></p>
   </body>
 </html>
