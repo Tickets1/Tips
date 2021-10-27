@@ -9,8 +9,8 @@
     <?php require "navbar.php"?>
   </head>
   <body class="text-center">
-    <div align="center"  class="mt-5">
-    <form class="form-signin" action="register.php" method="POST">
+    <div align="center" class="mt-5">
+    <form class="form-signin" method="POST">
       <h1 class="h3 mb-3 font-weight-normal ">Зарегистрируйтесь</h1>
       <input type="text" class="form-control mb-3" name="first_name" placeholder="Имя" required>
       <input type="text" class="form-control mb-3" name="last_name" placeholder="Фамилия" required>
@@ -19,7 +19,6 @@
       <input type="password" class="form-control mb-3" name="password" placeholder="Пароль" required>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Регистрация</button>
       <p class="mt-5 mb-3 text-muted">&copy; Tickets 2021</p>
-
     </form>
     <script>
     window.onload = function() {

@@ -28,7 +28,9 @@
             echo '<a class="nav-link" href="authorization.php">Авторизация</a>';
             break;
         default:
-          echo "n";
+        echo '<a class="nav-link" aria-current="page" href="index.php">Главная</a>';
+        echo '<a class="nav-link" href="register.php">Регистрация</a>';
+        echo '<a class="nav-link" href="authorization.php">Авторизация</a>';
           break;
 }
       ?>

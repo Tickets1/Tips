@@ -7,17 +7,24 @@ if (isset($_POST['login']) && isset($_POST['password'])){
   $first_name = $_POST['first_name'];
   $last_name = $_POST['last_name'];
   // работа с бд
-  $query = "INSERT INTO `reg_users3` (`first_name`, `last_name`, `login`, `password`, `email`) VALUES ('$first_name', '$last_name', '$login', '$password', '$email')";
+  $query = "INSERT INTO `users` (`first_name`, `last_name`, `login`, `password`, `email`) VALUES ('$first_name', '$last_name', '$login', '$password', '$email')";
   $result = mysqli_query($connect, $query) or die (mysqli_error($connect));
-  if (result){
+  if ($result){
     $smsg = "Регистрация прошла успешно";
     $_POST['smsg'] = $smsg;
+      //if (5==5){
+        //header('Location: register.php');
+    //  }
   }
     else{
     $fmsg = "Ошибка";
     $_POST['fmsg'] = $fmsg;
   }
 }
+
 //header('Location: register.php');
 ?>
-<?php //echo $_POST['login']; ?>
+
+<?php //header('Location: index.php');
+//echo "<script>self.location='http://tickets/register.php';</script>";
+?>
