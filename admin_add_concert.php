@@ -17,6 +17,7 @@
       <input type="text" class="form-control mb-3" name="count_tickets" placeholder="Количество билетов" required>
       <input type="text" class="form-control mb-3" name="datatime" placeholder="Дата время" required>
       <input type="text" class="form-control mb-3" name="location" placeholder="Место проведения" required>
+      <input type="text" class="form-control mb-3" name="price" placeholder="Цена" required>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Добавить</button>
       <p class="mt-5 mb-3 text-muted">&copy; Tickets 2021</p>
     </form>

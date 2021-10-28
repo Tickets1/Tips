@@ -6,8 +6,9 @@ if (isset($_POST['name']) && isset($_POST['description'])){
   $count_tickets = $_POST['count_tickets'];
   $datatime = $_POST['datatime'];
   $location = $_POST['location'];
+  $price = $_POST['price'];
   // работа с бд
-  $query = "INSERT INTO `concerts` (`name_concert`, `description`, `datatime`, `location`, `count_tickets`) VALUES ('$name', '$description', '$datatime', '$location', '$count_tickets')";
+  $query = "INSERT INTO `concerts` (`name_concert`, `description`, `datatime`, `location`, `count_tickets`,`price`) VALUES ('$name', '$description', '$datatime', '$location', '$count_tickets','$price')";
   $result = mysqli_query($connect, $query) or die (mysqli_error($connect));
   // генерация билетов
   $query_choose_id_concert = "SELECT `id_concert` FROM `concerts` WHERE `name_concert`='$name'";
