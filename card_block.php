@@ -19,8 +19,13 @@ foreach ($concerts as $concert) {
      <h6 class="card-title pricing-card-title"><?php echo $concert[6] ?> Рублей<small class="text-muted fw-light">/1 билет</small></h6>
      <ul class="list-unstyled mt-3 mb-4">
        <li>Осталось билетов <?php echo $concert[5] ?></li>
+       <li> <?php
+        //$_SESSION['concert_id'] = [
+        //"id" => $concert[0]
+    //  ];
+        //echo $_SESSION['concert_id']['id'] ; ?></li>
      </ul>
-     <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+     <a class="w-100 btn btn-lg btn-outline-primary" href="buying.php?id=<?php echo $concert[0]?>" role="button">Купить</a>
    </div>
  </div>
  <?php
