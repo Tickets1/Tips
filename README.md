@@ -13,3 +13,4 @@
 # Документация
 
 * [TZ_itog.docx](https://github.com/Tickets1/Tips/blob/main/Documents/TZ_itog.docx)
+* [Видео презентации](https://youtu.be/HycjgQOPrWY)
