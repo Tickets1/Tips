@@ -25,7 +25,15 @@ foreach ($concerts as $concert) {
     //  ];
         //echo $_SESSION['concert_id']['id'] ; ?></li>
      </ul>
-     <a class="w-100 btn btn-lg btn-outline-primary" href="buying.php?id=<?php echo $concert[0]?>" role="button">Купить</a>
+
+     <?php
+     if (!$_SESSION['user']){
+       echo '<a class="w-100 btn btn-lg btn-outline-primary" href="buying_for.php?id=' . $concert[0] . '"'; echo 'role="button">Купить</a>';
+     } else {
+      echo '<a class="w-100 btn btn-lg btn-outline-primary" href="buying.php?id=' . $concert[0] . '"'; echo  'role="button">Купить</a>';
+     }
+     //echo 'fdfdf' . $concert[0];
+      ?>
    </div>
  </div>
  <?php

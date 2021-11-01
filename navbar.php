@@ -7,10 +7,11 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <?php
-      $uri_current = $_SERVER[REQUEST_URI];
+      $uri_current = $_SERVER['REQUEST_URI'];
       $main_page = "/index.php";
       $authorization_page = "/authorization.php";
       $register_page = "/register.php";
+      $profile_page = "/profile.php";
       switch ($uri_current) {
         case $main_page:
           echo '<a class="nav-link active" aria-current="page" href="index.php">Главная</a>';
@@ -28,6 +29,9 @@
             echo '<a class="nav-link" aria-current="page" href="index.php">Главная</a>';
             echo '<a class="nav-link active" href="register.php">Регистрация</a>';
             echo '<a class="nav-link" href="authorization.php">Авторизация</a>';
+            break;
+          case $profile_page:
+            echo '<a class="nav-link" aria-current="page" href="index.php">Главная</a>';
             break;
         default:
         echo '<a class="nav-link" aria-current="page" href="index.php">Главная</a>';

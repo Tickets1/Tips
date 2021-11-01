@@ -8,7 +8,7 @@ if ($_SESSION['user']){
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Авторизация</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js">

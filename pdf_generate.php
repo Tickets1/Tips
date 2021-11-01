@@ -2,7 +2,7 @@
 session_start();
 // Optionally define the filesystem path to your system fonts
 // otherwise tFPDF will use [path to tFPDF]/font/unifont/ directory
-// define("_SYSTEM_TTFONTS", "C:/Windows/Fonts/");
+//define("_SYSTEM_TTFONTS", "C:/Windows/Fonts/");
 require('tfpdf.php');
 class PDF extends tFPDF
 {
