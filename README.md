@@ -9,7 +9,7 @@
 
 * [Miro](https://miro.com/app/board/o9J_lLkesTc=/)
 * [Trello](https://trello.com/b/RozRmUPK/tips)
-* [Проект](http://yourticket.u1514310.cp.regruhosting.ru/)
+* [Проект](http://yourticket.u1514310.cp.regruhosting.ru/index.php)
 
 # Документация
 
