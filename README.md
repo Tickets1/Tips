@@ -15,5 +15,6 @@
 
 * [Техническое задание](https://github.com/Tickets1/Tips/blob/main/Documents/TZ_itog_1.docx)
 * [Видео презентации](https://youtu.be/HycjgQOPrWY)
+* [Демо видео](https://www.youtube.com/watch?v=Fe_LcODdHDI)
 * [Курсовой проект](https://github.com/Tickets1/Tips/blob/main/Documents/Kursovaya_TP.docx)
 * [Курсовой проект pdf](https://github.com/Tickets1/Tips/blob/main/Documents/Kursovaya_TP.pdf)
