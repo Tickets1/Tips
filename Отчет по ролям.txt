@@ -1,0 +1,25 @@
+Рагимов Рауф
+- Курсовой проект
+- Uml диаграммы
+- Trello
+- ТЗ
+Анисимов Алексей
+- Trello
+- Miro
+- Uml диаграммы
+- ТЗ
+- Github
+- Frontend
+- Курсовой проект
+Кравцов Никита
+- Trello
+- Miro
+- Uml диаграммы
+- ТЗ
+- Github
+- Frontend
+- Курсовой проект
+- Backend
+- Database
+
+ 
