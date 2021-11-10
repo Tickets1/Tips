@@ -19,3 +19,4 @@
 * [Курсовой проект](https://github.com/Tickets1/Tips/blob/main/Documents/Kursovaya_TP.docx)
 * [Курсовой проект pdf](https://github.com/Tickets1/Tips/blob/main/Documents/Kursovaya_TP.pdf)
 * [Отчет по ролям](https://github.com/Tickets1/Tips/blob/main/Documents/Отчет_по_ролям.txt)
+* [Аналитика](https://github.com/Tickets1/Tips/blob/main/Documents/Analitika.jpg)
